@@ -2,6 +2,6 @@
 
 include "Engine/Core.php";
 
-Core::init();
-Core::Controller();
-Core::$view->display();
+\Engine\Core::init();
+\Engine\Core::Controller();
+\Engine\Core::$view->display();
